@@ -17,8 +17,6 @@ export default function Navbar() {
     { name: "Goals", href: "#goals" },
     { name: "Mission", href: "#mission" },
     { name: "Agenda", href: "#agenda" },
-    { name: "Speakers", href: "/speakers" },
-    { name: "Contact", href: "/contact" },
   ];
 
   return (
