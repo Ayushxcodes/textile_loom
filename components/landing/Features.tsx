@@ -69,7 +69,7 @@ export default function DiscussionTopicsSection() {
 
   return (
     <Container>
-      <section className="py-20 space-y-16">
+      <section id ="agenda" className="py-20 space-y-16">
         {/* TITLE */}
         <motion.h2
           initial={{ opacity: 0, y: 20 }}

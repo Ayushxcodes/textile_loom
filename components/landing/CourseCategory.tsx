@@ -8,7 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 export default function TextileConferenceSection() {
   return (
     <Container>
-      <section className="py-16 md:py-20 relative">
+      <section id="goals" className="py-16 md:py-20 relative">
         {/* ===== SECTION TITLE ===== */}
         <motion.h2
           initial={{ opacity: 0, y: 25 }}

@@ -12,7 +12,7 @@ import Container from "../base/Container";
 
 export default function MissionSection() {
   return (
-    <section className="relative py-16 md:py-24 lg:py-28 overflow-hidden">
+    <section id="mission" className="relative py-16 md:py-24 lg:py-28 overflow-hidden">
       {/* Decorative background glow */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_#ffedd5_0%,_transparent_60%)] opacity-40 pointer-events-none"></div>
 
