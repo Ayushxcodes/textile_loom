@@ -9,7 +9,11 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <HandloomVideoFrame src="/handloom.mp4" />
+      <HandloomVideoFrame
+        src="/handloom.mp4"
+        title="The Art of Handloom Weaving"
+        subtitle="Experience the craftsmanship that defines India"
+      />
       <CourseCategory />
       <HowItWorks />
       <Features />
